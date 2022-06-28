@@ -1,68 +1,154 @@
-.headerInner{
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+/* START HEADER */
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+.logoArea{
+    margin-top: 26px;
+    margin-left: 24px;
+}
+.listArea {
+    display: flex;
+    margin-top: 10px;
+}
+
+.listArea ul{
+    display: flex;
+}
+.listArea ul li {
+    margin-right: 32px;
+    color: #666;
+}
+
+.listArea ul li:nth-child(3)
+.listArea ul li:nth-child(4){
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    margin-top: -5px;
+}
+/* END HEADER */
+
+/* START HERO */
+.heroWrapper {
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
-.copyright{
-  text-align: center;
-}
-
-.copyright{
-  color: gray;
-}
-
-.migigawa{
-  display: flex;
-}
-
-.line-page{
-  background-color: #0071bc;
-  border-radius: 16px;
-  width: 984px;
-  height: 357px;
-  margin: auto;
-  margin-left: 230;
-  margin-right: 226;
+.hero-left{
+  background-color: #eff2f5;
+  border-radius: 30px;
+  width: 500px;
+  height: 281px;
+  margin-right: -125px;
   position: relative;
 }
-
-.line-image{
-  border-radius: 16px;
-  width: 100%;
-  opacity: 0.1;
-  position: absolute;
-  top: 0;
-  left: 0;
+.SubTitle{
+  color: blue;
 }
 
-.lineIcon{
+.hero-right{
+  width: 800px;
+  height: 700px;
+  margin-left: 700px;
+  margin-top: -1px;
+  overflow: hidden;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.hero-right{
+  width: 100%;
+  height: 100%;
+}
+/* END HERO */
+
+/* START LINE-SECTION */
+.lineSection{
+  max-width: 984px;
+  width: 100%; 
+  /* width後で消してみる */
+  height: 357px;
+  margin: 0 auto;
+}
+.lineInner{
+  width: 100%;
+  height: 100%;
+  background-image: url(./ph1-POSSE-website/assets-ph1-website-main/img/bg-line.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 48px;
+  overflow: hidden;
+}
+.lineInner::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
   position: absolute;
-left: 33.23%;
-right: 62.7%;
-top: 22.63%;
-bottom: 66.2%;
+  background-color: #0071bc;
+  opacity: 0.9;
+}
+
+.lineContent{
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.lineIcon{
   width: 40px;
   height: 40px;
+  background-color: white;
 }
-
 .posseOfficialLine{
-  font-size: 36px;
   text-align: center;
+  color: white;
 }
-
-.paragraph{
-  font-size: 14px;
+.lineParagraph{
   text-align: center;
+  color: white;
 }
-
-.lineAddButton{
-  background-color: #fff;
+.lineLink{
+  color: gray;
+  background-color: white;
+  display: block;
   border-radius: 98px;
-  width: 320px;
-  height: 50px
+  max-width: 320px;
+  width: 100%;
+  margin: 24px auto;
+  position: relative;
 }
-
+.lineLinkText{
+  display: flex;
+  justify-content: center;
+}
 .lineAdd{
-  text-align: center;
-  line-height: 25.8px;
+  font-size: 14px;
 }
+.lineLinkText img{
+position: absolute;
+top: 12px;
+right: 20px;
+}
+/* END LINE-SECTION */
+
+/* START FOOTER */
+.copyright{
+  text-align: center;
+  color: gray;
+} 
+/* END FOOTER */
