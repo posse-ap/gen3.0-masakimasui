@@ -1,5 +1,11 @@
-a{
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{ 
   text-decoration: none;
+  color: #666;
 }
 
 li{
@@ -19,8 +25,10 @@ header{
     margin-left: 24px;
 }
 .listArea {
-    display: flex;
+    display: flex
     margin-top: 10px;
+    color: gray;
+    margin-top: 27.5px;
 }
 
 .listArea ul{
@@ -37,6 +45,7 @@ header{
     height: 50px;
     margin-right: 16px;
     margin-top: -5px;
+
 }
 /* END HEADER */
 
@@ -45,6 +54,7 @@ header{
   margin: 0 auto;
   display: flex;
   width: 100%;
+  position: relative;
 }
 
 .hero-left{
@@ -53,32 +63,63 @@ header{
   width: 500px;
   height: 281px;
   margin-right: -125px;
-  position: relative;
+  position: absolute;
+  top: 198px;
+  left: 80px;
+
 }
 .SubTitle{
-  color: blue;
+  color: #0071bc;
+  font-size: 16px;
+  text-align: center;
+  margin: 0%;
+  padding: 40px 62px 12px 62px;
+}
+
+.mainTitle{
+  font-size: 60px;
+  margin: 0%;
+  padding: 0px 63px 40px 62px;
+  width: 375px;
+  height: 160px;
+}
+
+.scrollDown{
+  position: absolute;
+  top: 635px;
+  left: 126px;
+  color: #666;
 }
 
 .hero-right{
-  width: 800px;
-  height: 700px;
-  margin-left: 700px;
-  margin-top: -1px;
-  overflow: hidden;
+  width: 976px;
+  height: 680px;
+  margin-left: 464px;
   border-radius: 30px 0px 0px 30px;
+  size: center;
 }
 
 .hero-right{
   width: 100%;
   height: 100%;
 }
+
+.hero-right-img{
+  border-radius: 80px 0px 0px 80px;
+}
 /* END HERO */
+.aboutPOSSE{
+  width: 100%;
+  height: ;
+}
+/* START ABOUT-POSSE SECTION */
+
+/* END ABOUT-POSSE SECTION */
 
 /* START LINE-SECTION */
 .lineSection{
   max-width: 984px;
   width: 100%; 
-  /* width後で消してみる */
   height: 357px;
   margin: 0 auto;
 }
@@ -105,22 +146,28 @@ header{
 
 .lineContent{
   position: relative;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
 }
 .lineIcon{
   width: 40px;
   height: 40px;
   background-color: white;
+  position: absolute;
+  top: 81px;
+  left: 327px;
 }
 .posseOfficialLine{
-  text-align: center;
+  font-size: 36px;
   color: white;
+  position: absolute;
+  top: 68px;
+  left: 375px;
 }
 .lineParagraph{
   text-align: center;
   color: white;
+  position: absolute;
+  top: 149px;
+  left: 225px;
 }
 .lineLink{
   color: gray;
@@ -129,8 +176,11 @@ header{
   border-radius: 98px;
   max-width: 320px;
   width: 100%;
+  height: 50px;
   margin: 24px auto;
-  position: relative;
+  position: absolute;
+  top: 239px;
+  position: relative
 }
 .lineLinkText{
   display: flex;
@@ -138,6 +188,7 @@ header{
 }
 .lineAdd{
   font-size: 14px;
+  padding: 13.9px 122px 12.71px 121px;
 }
 .lineLinkText img{
 position: absolute;
@@ -147,8 +198,48 @@ right: 20px;
 /* END LINE-SECTION */
 
 /* START FOOTER */
-.copyright{
+.footerSection{
+  height: 275px;
+}
+
+.footerLogo{
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin-top: 137px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerOfficialSite{
+  padding-bottom: 32px;
   text-align: center;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.boxArrow{
+  width: 12.25px;
+  height: 12.25px;
+}
+
+.footerTwitterInstagram{
+  display: flex;
+  justify-content: center;
+}
+
+.footerTwitter{
+  margin-right: 15px;
+}
+
+.footerInstagram{
+
+}
+
+.copyright{
+  height: 70px;
+  padding-top: 84px;
   color: gray;
+  text-align: center;
 } 
 /* END FOOTER */
