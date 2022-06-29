@@ -66,7 +66,6 @@ header{
   position: absolute;
   top: 198px;
   left: 80px;
-
 }
 .SubTitle{
   color: #0071bc;
@@ -75,7 +74,6 @@ header{
   margin: 0%;
   padding: 40px 62px 12px 62px;
 }
-
 .mainTitle{
   font-size: 60px;
   margin: 0%;
@@ -83,37 +81,58 @@ header{
   width: 375px;
   height: 160px;
 }
-
 .scrollDown{
   position: absolute;
-  top: 635px;
+  top: 430px;
   left: 126px;
   color: #666;
 }
 
 .hero-right{
-  width: 976px;
-  height: 680px;
   margin-left: 464px;
-  border-radius: 30px 0px 0px 30px;
-  size: center;
-}
-
-.hero-right{
   width: 100%;
   height: 100%;
 }
-
 .hero-right-img{
+  size: center;
   border-radius: 80px 0px 0px 80px;
+  width: 976px;
+  height: 680px;
 }
 /* END HERO */
-.aboutPOSSE{
-  width: 100%;
-  height: ;
-}
-/* START ABOUT-POSSE SECTION */
 
+/* START ABOUT-POSSE SECTION */
+.mainTitleAboutPOSSE{
+  text-align: center;
+  margin-top: 96px;
+  font-size: 36px;
+}
+.subTitleAboutPOSSE{
+  text-align: center;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #0071bc;
+}
+
+.aboutPOSSEimgParagraph{
+  display: flex;
+  height: 495px;
+}
+.aboutPOSSEimg{
+  display: block;
+  width: 472px;
+  height: 312px;
+  margin-top: 43px;
+  margin-left: 228px;
+  border-radius: 24px;
+
+}
+.aboutPOSSEparagraph{
+  font-size: 14px;
+  width: 472px;
+  margin: 111.5px;
+  margin-left: 40px;
+}
 /* END ABOUT-POSSE SECTION */
 
 /* START LINE-SECTION */
@@ -229,11 +248,7 @@ right: 20px;
 }
 
 .footerTwitter{
-  margin-right: 15px;
-}
-
-.footerInstagram{
-
+  margin-right: 30px;
 }
 
 .copyright{
