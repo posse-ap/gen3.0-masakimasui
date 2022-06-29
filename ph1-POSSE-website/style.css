@@ -1,0 +1,68 @@
+.headerInner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.copyright{
+  color: gray;
+}
+
+.migigawa{
+  display: flex;
+}
+
+.line-page{
+  background-color: #0071bc;
+  border-radius: 16px;
+  width: 984px;
+  height: 357px;
+  margin: auto;
+  margin-left: 230;
+  margin-right: 226;
+  position: relative;
+}
+
+.line-image{
+  border-radius: 16px;
+  width: 100%;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.lineIcon{
+  position: absolute;
+left: 33.23%;
+right: 62.7%;
+top: 22.63%;
+bottom: 66.2%;
+  width: 40px;
+  height: 40px;
+}
+
+.posseOfficialLine{
+  font-size: 36px;
+  text-align: center;
+}
+
+.paragraph{
+  font-size: 14px;
+  text-align: center;
+}
+
+.lineAddButton{
+  background-color: #fff;
+  border-radius: 98px;
+  width: 320px;
+  height: 50px
+}
+
+.lineAdd{
+  text-align: center;
+  line-height: 25.8px;
+}
