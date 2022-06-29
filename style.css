@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{ 
+  text-decoration: none;
+  color: #666;
+}
+
+li{
+  list-style: none;
+}
+
+/* START HEADER */
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+.logoArea{
+    margin-top: 26px;
+    margin-left: 24px;
+}
+.listArea {
+    display: flex
+    margin-top: 10px;
+    color: gray;
+    margin-top: 27.5px;
+}
+
+.listArea ul{
+    display: flex;
+}
+.listArea ul li {
+    margin-right: 32px;
+    color: #666;
+}
+
+.listArea ul li:nth-child(3)
+.listArea ul li:nth-child(4){
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    margin-top: -5px;
+
+}
+/* END HEADER */
+
+/* START HERO */
+.heroWrapper {
+  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.hero-left{
+  background-color: #eff2f5;
+  border-radius: 30px;
+  width: 500px;
+  height: 281px;
+  margin-right: -125px;
+  position: absolute;
+  top: 198px;
+  left: 80px;
+
+}
+.SubTitle{
+  color: #0071bc;
+  font-size: 16px;
+  text-align: center;
+  margin: 0%;
+  padding: 40px 62px 12px 62px;
+}
+
+.mainTitle{
+  font-size: 60px;
+  margin: 0%;
+  padding: 0px 63px 40px 62px;
+  width: 375px;
+  height: 160px;
+}
+
+.scrollDown{
+  position: absolute;
+  top: 635px;
+  left: 126px;
+  color: #666;
+}
+
+.hero-right{
+  width: 976px;
+  height: 680px;
+  margin-left: 464px;
+  border-radius: 30px 0px 0px 30px;
+  size: center;
+}
+
+.hero-right{
+  width: 100%;
+  height: 100%;
+}
+
+.hero-right-img{
+  border-radius: 80px 0px 0px 80px;
+}
+/* END HERO */
+.aboutPOSSE{
+  width: 100%;
+  height: ;
+}
+/* START ABOUT-POSSE SECTION */
+
+/* END ABOUT-POSSE SECTION */
+
+/* START LINE-SECTION */
+.lineSection{
+  max-width: 984px;
+  width: 100%; 
+  height: 357px;
+  margin: 0 auto;
+}
+.lineInner{
+  width: 100%;
+  height: 100%;
+  background-image: url(./ph1-POSSE-website/assets-ph1-website-main/img/bg-line.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 48px;
+  overflow: hidden;
+}
+.lineInner::before{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #0071bc;
+  opacity: 0.9;
+}
+
+.lineContent{
+  position: relative;
+}
+.lineIcon{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 81px;
+  left: 327px;
+}
+.posseOfficialLine{
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  top: 68px;
+  left: 375px;
+}
+.lineParagraph{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 149px;
+  left: 225px;
+}
+.lineLink{
+  color: gray;
+  background-color: white;
+  display: block;
+  border-radius: 98px;
+  max-width: 320px;
+  width: 100%;
+  height: 50px;
+  margin: 24px auto;
+  position: absolute;
+  top: 239px;
+  position: relative
+}
+.lineLinkText{
+  display: flex;
+  justify-content: center;
+}
+.lineAdd{
+  font-size: 14px;
+  padding: 13.9px 122px 12.71px 121px;
+}
+.lineLinkText img{
+position: absolute;
+top: 12px;
+right: 20px;
+}
+/* END LINE-SECTION */
+
+/* START FOOTER */
+.footerSection{
+  height: 275px;
+}
+
+.footerLogo{
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin-top: 137px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerOfficialSite{
+  padding-bottom: 32px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.boxArrow{
+  width: 12.25px;
+  height: 12.25px;
+}
+
+.footerTwitterInstagram{
+  display: flex;
+  justify-content: center;
+}
+
+.footerTwitter{
+  margin-right: 15px;
+}
+
+.footerInstagram{
+
+}
+
+.copyright{
+  height: 70px;
+  padding-top: 84px;
+  color: gray;
+  text-align: center;
+} 
+/* END FOOTER */
