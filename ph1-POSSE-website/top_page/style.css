@@ -25,7 +25,7 @@ header{
     margin-left: 24px;
 }
 .listArea {
-    display: flex
+    display: flex;
     margin-top: 10px;
     color: gray;
     margin-top: 27.5px;
@@ -48,6 +48,23 @@ header{
 
 }
 /* END HEADER */
+
+/* START LINE BANNER */
+.line_banner{
+  width: 288px;
+  height: 80px;
+  display: flex;
+  background-color: #5FDF5B;
+  border-radius: 16px;
+  position: relative;
+}
+.line_banner_line_icon{
+}
+.line_banner_paragraph{
+}
+.line_banner_link_icon{
+}
+/* END LINE BANNER */
 
 /* START HERO */
 .heroWrapper {
@@ -155,7 +172,6 @@ header{
 }
 .lineInner::before{
   content: "";
-  display: block;
   width: 100%;
   height: 100%;
   position: absolute;
