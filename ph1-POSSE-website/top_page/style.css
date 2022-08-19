@@ -1,13 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
+body{
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 a{ 
   text-decoration: none;
   color: #666;
 }
-
 li{
   list-style: none;
 }
@@ -20,32 +18,41 @@ header{
     justify-content: space-between;
     text-align: center;
 } 
-.logoArea{
-    margin-top: 26px;
-    margin-left: 24px;
+
+.logo_area{
+  padding: 24px;
 }
-.listArea {
+
+.list_area {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.list_area ul{
+  height: 100%;
     display: flex;
-    margin-top: 10px;
-    color: gray;
-    margin-top: 27.5px;
 }
-
-.listArea ul{
-    display: flex;
+.list_area ul li{
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }
-.listArea ul li {
-    margin-right: 32px;
-    color: #666;
+.list_area ul li:hover{
+  text-decoration: underline;
+  color: #EEE;
 }
-
-.listArea ul li:nth-child(3)
-.listArea ul li:nth-child(4){
-    width: 50px;
-    height: 50px;
-    margin-right: 16px;
-    margin-top: -5px;
-
+.header_list_area_image_border{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #EEE;
+  border-radius: 25px;
+}
+.header_list_area_image{
+  display: flex;
+  align-items: center;
 }
 /* END HEADER */
 
@@ -59,8 +66,11 @@ header{
   position: relative;
 }
 .line_banner_line_icon{
+  background-color: #fff;
 }
 .line_banner_paragraph{
+  color: white;
+  font-weight: bold;
 }
 .line_banner_link_icon{
 }

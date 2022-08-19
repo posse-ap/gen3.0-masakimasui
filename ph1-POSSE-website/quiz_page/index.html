@@ -5,39 +5,64 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../recet.css">
-  <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <title>クイズページ</title>
 </head>
 
 <body>
-
 <!-- START HEADER -->
   <header>
-    <div class="logoArea">
+    <div class="logo_area">
       <img src="../assets-ph1-website-main/img/logo.svg" alt="POSSE">
     </div>
+    <div class="list_area">
+      <ul>
+          <li>
+            <a href="../top_page/index.html">
+              POSSEとは
+            </a>
+          </li>
+          <li>
+            <a href="../quiz_page/index.html">
+              クイズ
+            </a>
+          </li>
+          <li>
+            <div class="header_list_area_image_border">
+              <div class="header_list_area_image">
+                <a href="https://twitter.com/posse_program?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                  <img src="../assets-ph1-website-main/img/icon/icon-twitter.svg" alt="instagram">
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="header_list_area_image_border">
+              <div class="header_list_area_image">
+                <a href="https://www.instagram.com/posse_programming/?hl=en">
+                  <img src="../assets-ph1-website-main/img/icon/icon-instagram.svg" alt="twitter">
+                </a>
+              </div>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </header>
+<!-- END HEADER -->
+          
+<!-- START MAIN -->
+<!-- START HERO SECTION -->
+<section class="IT_quiz_wrapper">
+  <div class="IT_quiz_wrapper_headings">
+    <h3 class="IT_quiz_wrapper_headings_POSSE_assignment">POSSE課題</h3>
+    <h1 class="IT_quiz_wrapper_headings_IT_quiz">ITクイズ</h1>
+  </div>
+</section>
+<!-- END HERO SECTION -->
 
-        <div class="listArea">
-          <ul>
-            <li><a href="">POSSEとは</a></li>
-                <li><a href="">クイズ</a></li>
-                <li><a href=""><img src="../assets-ph1-website-main/img/icon/icon-instagram.svg" alt="instagram"></a></li>
-                <li><a href=""><img src="../assets-ph1-website-main/img/icon/icon-twitter.svg" alt="twitter"></a></li>
-              </ul>
-            </div>
-          </header>
-          <!-- END HEADER -->
-          
-          <!-- START MAIN -->
-          <!-- START HERO SECTION -->
-          <section class="IT_quiz_wrapper">
-            <div class="IT_quiz_wrapper_headings">
-              <h3 class="IT_quiz_wrapper_headings_POSSE_assignment">POSSE課題</h3>
-              <h1 class="IT_quiz_wrapper_headings_IT_quiz">ITクイズ</h1>
-            </div>
-          </section>
-          <!-- END HERO SECTION -->
-          
 <!--START QUIZ SECTION -->
 <section class="quiz_section">
     <!-- Q1 -->
@@ -58,6 +83,17 @@
             <img src="../assets-ph1-website-main/img/icon/icon-arrow.svg" alt="">
           </div>
         </div>
+
+        <!-- ANSWER作成用 -->
+        <div class="correct_wrapper">
+          <h2 class="correct_header">正解！</h2>
+          <div class="correct_content"></div>
+          <div class="upper_case_a"></div>
+        </div>
+        <!-- ANSWER作成用 -->
+
+
+
         <div class="answer_choice">
           <div class="answer_choice_text">
             約79万人
@@ -270,5 +306,6 @@
 <!--END QUIZ SECTION -->
 <!-- END MAIN -->
 
+<script src="./quiz.js"></script>
 </body>
 </html>
