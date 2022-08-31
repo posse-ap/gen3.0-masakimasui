@@ -8,6 +8,8 @@
     "約5倍",
   ];
 
+  const correctAnswers = document.querySelectorAll('.correct_answer')
+
   // クイズごとに1回だけクリックを可能にするプログラム
   for (let quizNumber = 1; quizNumber <= 6; quizNumber++) {
     answerChoices = document.querySelectorAll(".quiz_number_" + quizNumber);
@@ -19,6 +21,7 @@
           clickNumber++;
           answerChoice.classList.add("is_clicked");
 
+          if (=== correctAnswers[ quizNumber - 1]) {};
           let correctExplanation = `<div class="correct_explanation">
           <div class="correct_in_text">正解！</div>
           <div class="answer_explanation_sentence">
