@@ -1,25 +1,28 @@
-body{
-  font-family: 'Noto Sans JP', sans-serif;
+body {
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-a{ 
+a {
   text-decoration: none;
   color: #666;
 }
-li{
+li {
   list-style: none;
 }
 
 /* START HEADER */
-header{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-} 
+header {
+  width: 100%;
+  height: 6vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: fixed;
+  z-index: 10;
+}
 
-.logo_area{
+.logo_area {
   padding: 24px;
 }
 
@@ -28,37 +31,40 @@ header{
   display: flex;
   align-items: center;
 }
-.list_area ul{
+.list_area ul {
   height: 100%;
-    display: flex;
+  display: flex;
 }
-.list_area ul li{
+.list_area ul li {
   margin-right: 32px;
   display: flex;
   align-items: center;
   font-weight: bold;
 }
-.list_area ul li:hover{
+.list_area ul li:hover {
   text-decoration: underline;
-  color: #EEE;
+  color: #eee;
 }
-.header_list_area_image_border{
+.header_list_area_image_border {
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
-  border: 1px solid #EEE;
+  border: 1px solid #eee;
   border-radius: 25px;
 }
-.header_list_area_image{
+.header_list_area_image {
   display: flex;
   align-items: center;
 }
 /* END HEADER */
 
 /* START MAIN */
+main{
+  padding-top: 6vh;
+}
 /* START HERO */
-.IT_quiz_wrapper{
+.IT_quiz_wrapper {
   height: 320px;
   margin-bottom: 128px;
   background-image: url(../assets-ph1-website-main/img/quiz/bg-hero.jpg);
@@ -66,32 +72,32 @@ header{
   background-repeat: no-repeat;
   position: relative;
 }
-.IT_quiz_wrapper_headings{
+.IT_quiz_wrapper_headings {
   color: white;
   position: absolute;
   top: 110px;
   left: 204px;
 }
-.IT_quiz_wrapper_headings_POSSE_assignment{
+.IT_quiz_wrapper_headings_POSSE_assignment {
   padding-bottom: 12px;
   font-weight: bold;
-font-size: 18px;
+  font-size: 18px;
 }
-.IT_quiz_wrapper_headings_IT_quiz{
+.IT_quiz_wrapper_headings_IT_quiz {
   font-weight: bold;
   font-size: 60px;
 }
 /* END HERO */
 
 /* START QUIZ SECTION */
-.quiz_section{
+.quiz_section {
   max-width: 999px;
   margin: 0 auto;
   margin-bottom: 120px;
   padding: 0 114px;
 }
 
-.quiz_number{
+.quiz_number {
   width: 85px;
   height: 70px;
   margin-bottom: 32px;
@@ -106,21 +112,21 @@ font-size: 18px;
   font-size: 36px;
   line-height: 150%;
 }
-.quiz_sentence{
+.quiz_sentence {
   margin-bottom: 64px;
   line-height: 54px;
   font-size: 36px;
   font-weight: bold;
 }
-.quiz_image{
+.quiz_image {
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
 }
-.quiz_image img{
+.quiz_image img {
   width: 720px;
 }
-.pink_answer_mark{
+.pink_answer_mark {
   width: 85px;
   height: 70px;
   margin-bottom: 16px;
@@ -135,15 +141,15 @@ font-size: 18px;
   font-size: 36px;
   line-height: 150%;
 }
-.answer_choices{
+.answer_choices {
   margin-bottom: 128px;
   display: flex;
   justify-content: space-between;
 }
-.answer_choices_with_information_source{
+.answer_choices_with_information_source {
   margin-bottom: 16px;
 }
-.answer_choice{
+.answer_choice {
   width: 312px;
   height: 80px;
   display: flex;
@@ -152,34 +158,34 @@ font-size: 18px;
   border-radius: 8px;
   cursor: pointer;
 }
-.is_clicked{
-  background-color: #EFF2F5;
+.is_clicked {
+  background-color: #eff2f5;
   color: #0071bc;
   border-color: #0071bc;
 }
-.answer_choice_text{
+.answer_choice_text {
   width: 240px;
   padding-left: 24px;
   font-size: 18px;
   font-weight: bold;
 }
-.answer_choice_arrow_icon_image{
-padding-left: 8px;
+.answer_choice_arrow_icon_image {
+  padding-left: 8px;
 }
 
-.information_source{
+.information_source {
   margin-bottom: 128px;
   max-height: 80px;
   border-radius: 8px;
   background-color: #f6f6f6;
   text-align: center;
   display: flex;
-/* font awesomeから入れる！もしくはHTML角形を入れる? */
+  /* font awesomeから入れる！もしくはHTML角形を入れる? */
 }
-.note_icon_image{
+.note_icon_image {
   padding: 32px 0px 31px 24px;
 }
-.information_source_paragraph{
+.information_source_paragraph {
   padding-left: 16px;
   font-size: 18px;
   font-weight: bold;
